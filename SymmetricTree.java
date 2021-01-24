@@ -15,7 +15,5 @@ class Solution {
             return (isSem(root1.left,root2.right) && isSem(root1.right,root2.left));
         }
         else{return false;}
-        
-
     }
 }
